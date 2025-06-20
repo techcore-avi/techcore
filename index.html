@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech.Info - Computer Hardware & Networking</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f4f4; color: #333; }
+    header {
+      background: #0b3d91;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      background: #333;
+      overflow: hidden;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      padding: 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    form button {
+      background: #0b3d91;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .map {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tech.Info</h1>
+    <p>Computer Hardware & Networking Services</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Tech.Info is a service-based company specializing in computer hardware solutions and networking services. We provide reliable, affordable, and professional services to keep your systems running smoothly.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>Computer Repair</h3>
+        <p>Diagnosis and repair of hardware issues for desktops, laptops, and workstations.</p>
+      </div>
+      <div class="service-box">
+        <h3>Networking Setup</h3>
+        <p>Installation and maintenance of wired and wireless network systems for homes and businesses.</p>
+      </div>
+      <div class="service-box">
+        <h3>Hardware Upgrades</h3>
+        <p>Enhance your systems with RAM, SSD, GPU upgrades and other performance components.</p>
+      </div>
+      <div class="service-box">
+        <h3>Annual Maintenance</h3>
+        <p>Regular maintenance contracts for businesses to ensure consistent performance and uptime.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Call us at <strong>7420806178</strong> or send a message below:</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="map">
+      <h3>Our Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9263876716716!2d72.87765561490152!3d19.07609058708915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6303fba5e73%3A0xbaa735f9c5973b62!2sMumbai!5e0!3m2!1sen!2sin!4v1620633313747!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tech.Info | Computer Hardware & Networking Services | Contact: 7420806178</p>
+  </footer>
+</body>
+</html>
